@@ -16,7 +16,7 @@ export const Contact = () => {
           <div className="space-y-6">
             <div className="text-white">
               <p>
-                <strong>Phone:</strong> +928200594008
+                <strong>Phone:</strong> +918200594008
               </p>
               <p>
                 <strong>Email:</strong> solankikishan149@gmail.com
