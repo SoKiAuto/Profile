@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SoKiAuto.github.io/profirl", 
+  "homepage": "https://SoKiAuto.github.io/work", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
