@@ -8,6 +8,8 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
+import MagicCursor from "./components/Effects/MagicCursor";
+
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -19,6 +21,10 @@ function App() {
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
 
       {/* Main content after loading */}
+
+        {/* Magic Cursor */}
+      <MagicCursor /> {/* ✅ Add here */}
+
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"

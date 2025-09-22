@@ -13,6 +13,15 @@ body {
   color: #f3f4f6;  /* Light text color for contrast */
 }
 
+
+
+canvas {
+  mix-blend-mode: screen;
+  filter: blur(1px);
+}
+
+
+
 @layer utilities {
   /* Blink animation for text */
   @keyframes blink {
